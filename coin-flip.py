@@ -12,8 +12,9 @@ for experiment_number in range(1):
         flip = random.randint(0, 1)
         if flip == 0: test_list.append('H')
         else: test_list.append('T')
+        print(test_list) # for debugging
     
-
     # Code that checks if there is a streak of 6 heads or tails in a row.
+    for values in test_list:
 
 print('Chance of streak: %s%%' % (num_of_streaks / 100))
